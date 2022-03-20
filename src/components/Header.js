@@ -7,7 +7,7 @@ import HeaderList from "./HeaderList";
 const Positioner = styled.div`
   width: 100vw;
   height: 6vh;
-  background-color: #dfffff;
+  box-shadow: 1px 1px 4px #e3e3e3;
 `;
 
 const Logo = styled.div`
@@ -17,7 +17,7 @@ const Logo = styled.div`
 
 const Menu = styled.div`
   width: 186px;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 6vh;
 `;
 
