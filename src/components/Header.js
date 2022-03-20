@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+import { ColorSystem } from "../utils/colorSystem";
 import { Link, Router, useNavigate } from "react-router-dom";
+import HeaderList from "./HeaderList";
 
 const Positioner = styled.div`
   width: 100vw;
@@ -14,7 +16,7 @@ const Logo = styled.div`
 `;
 
 const Menu = styled.div`
-  width: 160px;
+  width: 186px;
   font-size: 12px;
   line-height: 6vh;
 `;
@@ -22,11 +24,16 @@ const Menu = styled.div`
 const Header = () => {
   return (
     <Positioner className="fixed z-50 flex">
-      <Logo className="text-left ml-20 font-medium">aboutTree</Logo>
+      <Logo
+        className="text-left ml-20 font-medium"
+        style={{ color: ColorSystem.TextColor.default }}
+      >
+        aboutTree
+      </Logo>
       <Menu className="flex list-none justify-between ml-16">
-        <li>About</li>
-        <li>About</li>
-        <li>About</li>
+        <HeaderList menu="About" />
+        <HeaderList menu="Dictionary" />
+        <HeaderList menu="Labgirl" />
       </Menu>
     </Positioner>
   );
