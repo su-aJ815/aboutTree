@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { ColorSystem } from "../utils/colorSystem";
 import mainImg1 from "../images/mainImg1.png";
 
 const MainImg = styled.div`
