@@ -8,6 +8,7 @@ const Positioner = styled.div`
   width: 100vw;
   height: 6vh;
   box-shadow: 1px 1px 4px #e3e3e3;
+  background-color: #f7fafb;
 `;
 
 const Logo = styled.div`

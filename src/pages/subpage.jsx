@@ -2,19 +2,26 @@ import React from "react";
 import styled from "styled-components";
 import treeImg from "../images/treeImg.png";
 
+const SubContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
+`;
+
 const SubImg = styled.div`
-  width: 40vw;
-  height: 40vh;
+  width: 250px;
+  height: 450px;
   background-image: url(${treeImg});
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 `;
 
 export const SubPage = () => {
   return (
     <>
-      <SubImg />
+      <SubContainer>
+        <SubImg />
+      </SubContainer>
     </>
   );
 };

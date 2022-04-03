@@ -1,6 +1,13 @@
 .App {
   text-align: center;
   cursor: url("./images/cusor.png"), auto;
+
+  -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
 }
 
 .link:hover { cursor: url("./images/cusor2png.png"), auto; }
