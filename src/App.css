@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+  cursor: url("./images/cusor.png"), auto;
 }
+
+.link:hover { cursor: url("./images/cusor2png.png"), auto; }
 
 .App-logo {
   height: 40vmin;
