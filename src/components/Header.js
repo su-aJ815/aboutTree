@@ -12,12 +12,12 @@ const Positioner = styled.div`
 `;
 
 const Logo = styled.div`
-  font-size: 18px;
+  font-size: 24px;
   line-height: 6vh;
 `;
 
 const Menu = styled.div`
-  width: 186px;
+  width: 212px;
   font-size: 10px;
   line-height: 6vh;
 `;

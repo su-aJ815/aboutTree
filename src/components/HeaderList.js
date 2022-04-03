@@ -5,7 +5,7 @@ import { Link, Router, useNavigate } from "react-router-dom";
 
 const List = styled.li`
   line-height: 6vh;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
 `;
 

@@ -14,7 +14,7 @@ const MainImg = styled.div`
 const MainText = styled.h1`
   color: #333333;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 36px;
   padding-top: 190px;
   text-shadow: 1px 1px 3px #e3e3e3;
 `;
